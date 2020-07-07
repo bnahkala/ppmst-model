@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1594136394263.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4180339930",
+    "id" : "3C968787",
+    "lastKnownWriteTime" : 1594136356,
+    "last_content_update" : 1594136356,
+    "path" : "C:/github/ppmst-model/01_DataProcessingModelTesting.R",
+    "project_path" : "01_DataProcessingModelTesting.R",
+    "properties" : {
+        "cursorPosition" : "6,26",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

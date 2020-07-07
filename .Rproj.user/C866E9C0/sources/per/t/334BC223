@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1594136267804.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3794815514",
+    "id" : "334BC223",
+    "lastKnownWriteTime" : 1594136300,
+    "last_content_update" : 1594136300057,
+    "path" : "C:/github/ppmst-model/03_FinalModel.R",
+    "project_path" : "03_FinalModel.R",
+    "properties" : {
+        "cursorPosition" : "8,7",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
