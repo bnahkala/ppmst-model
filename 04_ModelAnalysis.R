@@ -21,8 +21,8 @@ load("min_depth_frame.rda")
 head(min_depth_frame, n=10)
 plot_min_depth_distribution(min_depth_frame)
 
-png(filename = "forexpl_nodedepth.png", width=600, height=600)
-# windows()
+# png(filename = "forexpl_nodedepth.png", width=90, height=90, units = "mm")
+windows()
 plot_min_depth_distribution(min_depth_frame)
 dev.off()
 
@@ -96,9 +96,14 @@ imp$vars <- rownames(imp)
 imp$PctIncMSE <- as.numeric(imp$PctIncMSE)
 names(imp) <- c("PctIncMSE", "IncNodePurity", "vars")
 
-png("pctMSE.png", heigh=300, width=300)
+png(filename = "Fig5_NodeDepth.png", width=90, height=90, units="mm", res = 120)
+# windows()
+plot_min_depth_distribution2(min_depth_frame, main="")
+dev.off()
+
+png("Fig6_MSEIncrease.png", heigh=90, width=90, units = "mm", res=120)
 ggplot(imp, aes(PctIncMSE, vars, colour=PctIncMSE)) +
-  geom_point(aes(size=10, alpha=0.2)) +
+  geom_point(aes(size=8, alpha=0.2)) +
   scale_colour_continuous()+
   labs(
     x="Percent Increase in MSE",

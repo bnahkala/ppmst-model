@@ -12,14 +12,14 @@
     "path" : "C:/github/ppmst-model/03_FinalModel.R",
     "project_path" : "03_FinalModel.R",
     "properties" : {
-        "cursorPosition" : "8,7",
+        "cursorPosition" : "16,48",
         "scrollLine" : "0",
         "tempName" : "Untitled1"
     },
     "read_only" : false,
     "read_only_alternatives" : [
     ],
-    "relative_order" : 4,
+    "relative_order" : 3,
     "source_on_save" : false,
     "source_window" : "",
     "type" : "r_source"
